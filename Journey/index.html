@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Our Journey</title>
+  <meta name="robots" content="noindex" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Caveat:wght@500&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=4" />
+</head>
+<body>
+  <section id="intro" class="screen">
+    <div class="intro-inner">
+      <p class="eyebrow">a little something for you</p>
+      <h1 id="intro-title"></h1>
+      <div id="intro-lines"></div>
+      <button id="start" class="btn"></button>
+    </div>
+  </section>
+
+  <main id="journey" hidden></main>
+
+  <section id="letter" class="screen" hidden>
+    <div class="letter-card reveal">
+      <h2 id="letter-title"></h2>
+      <div id="letter-body"></div>
+    </div>
+    <p id="letter-closing" class="closing reveal"></p>
+  </section>
+
+  <div id="lightbox" hidden>
+    <img alt="" />
+    <p></p>
+  </div>
+
+  <script src="content.js?v=4"></script>
+  <script src="script.js?v=4"></script>
+</body>
+</html>
